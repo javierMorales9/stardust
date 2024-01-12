@@ -1,0 +1,25 @@
+repos:
+- repo: https://github.com/psf/black-pre-commit-mirror
+  rev: 23.12.1
+  hooks:
+    - id: black
+      # It is recommended to specify the latest version of Python
+      # supported by your project here, or alternatively use
+      # pre-commit's default_language_version, see
+      # https://pre-commit.com/#top_level-default_language_version
+      #language_version: python3.11
+-   repo: https://github.com/PyCQA/flake8
+    rev: 5.0.4
+    hooks:
+    -   id: flake8
+        additional_dependencies: [flake8-typing-imports==1.10.0]
+        exclude: ^site-pacakges/
+-   repo: https://github.com/PyCQA/pydocstyle
+    rev: 4.0.1
+    hooks:
+    - id: pydocstyle
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.8.0'
+    hooks:
+    - id: mypy
+
