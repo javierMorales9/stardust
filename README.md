@@ -1,13 +1,21 @@
-# Chess-python-cli
-Have your ever wanted to play chess right in terminal? Now you can with the Chess-python-cli.
+# Stardust
+Putting the PDF reading experience up to date
 
 ## How to use this repo
-To download the repository just execute this in your terminal
+To download the repository just execute this in your terminal and access to the folder
+
 ``` bash
-git clone https://github.com/javierMorales9/chess-python
+$ git clone https://github.com/javierMorales9/stardust
+$ cd stardust
 ```
 
-Everything is in the main.py file. No dependency needed, just the python [runtime](https://www.python.org/)
+After that generate and access the conda envioronment
+
+``` bash
+$ conda env create -f environment.yml
+$ conda activate stardust
+```
+
 
 ## Code organization
 To complete

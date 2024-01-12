@@ -1,4 +1,4 @@
-name: ajedrez-env
+name: stardust
 channels:
 - defaults
 - conda-forge
